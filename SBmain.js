@@ -67,6 +67,6 @@ console.log(finalAdress);
     document.getElementById("adrs").innerHTML = ' <p class="btn btn-danger">NOTE : If you are using mobile phone then make sure to have google earth app</p> <br><br> <a id="address" href= "'+ finalAdress+'"/>See Me On Google Earth!</a>'
 }
 
-
-
-
+function logout(){
+    window.location = "index.html";
+}
